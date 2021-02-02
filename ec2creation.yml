@@ -8,11 +8,8 @@
      key_name: ansible-test
      instance_type: t2.micro
      image: ami-096fda3c22c1c990a
-     region: us-east-1
      wait: yes
      group: default
      count: 1
      vpc_subnet_id: subnet-55b89c18
      assign_public_ip: yes
-     aws_access_key: AKIAJPXH4JQIWVHJNOYQ1111
-     aws_secret_key: 0yJnnO3hruYb5kQweyOuM1udDtrGd5/fiLPJhFoV111

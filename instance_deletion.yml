@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  become: yes
+  connection: local
+  tasks:
+    - name: Terminate instances
+      ec2:
+        state: absent
+        instance_ids: i-090c4bb812cc2a938
+
