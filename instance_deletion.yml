@@ -6,5 +6,5 @@
     - name: Terminate instances
       ec2:
         state: absent
-        instance_ids: i-090c4bb812cc2a938
-
+        instance_ids: i-0c7e62acec974394e
+        region: us-east-1
