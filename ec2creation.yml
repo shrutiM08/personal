@@ -1,4 +1,4 @@
----
+--
 - hosts: localhost
   connection: local
   become: yes
@@ -13,3 +13,4 @@
      count: 1
      vpc_subnet_id: subnet-55b89c18
      assign_public_ip: yes
+     region: us-east-1
